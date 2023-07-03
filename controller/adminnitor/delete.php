@@ -21,8 +21,10 @@ $laymatk = $_GET['matk'];
 if($laymatk > 0)
 {
     if($p->themxoasua("DELETE FROM taikhoan WHERE MaTK = '$laymatk' LIMIT 1") == 1){
+        $p->themxoasua("DELETE FROM tthongtinnguoidung WHERE MaTK = '$laymatk' LIMIT 1");
         header( "refresh:0;url=../../view/actors/adminitors/quantrivien_nguoidung.php" );
         echo '<script> alert("Xóa người dùng thành công");</script>';
     }
 }
+
 ?>

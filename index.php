@@ -1,524 +1,318 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>ITC</title>
-      <link REL="SHORTCUT ICON" HREF="images/ITC.svg">
-      <meta name="keywords" content="ITC">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-   </head>
-   <!-- body -->
-   <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
-      </div>
-      <!-- end loader -->
-      <!-- header -->
-      <div class="header">
-         <div class="container">
-            <div class="row d_flex">
-               <div class=" col-md-2 col-sm-3 col logo_section">
-                  <div class="full">
-                     <div class="center-desk">
-                        <div class="logo">
-                           <a href="index.html"><img src="images/ITC.svg" alt="#" /></a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-8 col-sm-12">
-                  <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-                     </button>
-                     <div class="collapse navbar-collapse" id="navbarsExample04">
-                        <ul class="navbar-nav mr-auto">
-                           <li class="nav-item active">
-                              <a class="nav-link" href="index.html">Trang chủ</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="about.html">Khóa học</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="hosting.html">Báo cáo</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="domain.html">Kết quả học tập</a>
-                           </li>
-                          
-                           <li class="nav-item">
-                              <a class="nav-link" href="contact.html">Liên hệ</a>
-                           </li>
-                        </ul>
-                     </div>
-                  </nav>
-               </div>
-               <div class="col-md-2  d_none">
-                  <ul class="email text_align_right">
-                     <li><a href="login.php"><i class="fa fa-user" aria-hidden="true"></i> Sign In
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end header inner -->
-      <!-- top -->
-      <div class="full_bg">
-         <div class="slider_main">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <!-- carousel code -->
-                     <div id="banner1" class="carousel slide">
-                        <ol class="carousel-indicators">
-                           <li data-target="#banner1" data-slide-to="0" class="active"></li>
-                           <li data-target="#banner1" data-slide-to="1"></li>
-                           <li data-target="#banner1" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                           <!-- first slide -->
-                           <div class="carousel-item active">
-                              <div class="carousel-caption relative">
-                                 <div class="row">
-                                    <div class="col-md-6">
-                                       <div class="dream">
-                                          <h1>
-                                             Hệ thống học tập <br>ITC <br>Education <br>University
-                                          </h1>
-                                          <a class="read_more" href="Javascript:void(0)">Get Stared</a>    
-                                          <a class="read_more" href="Javascript:void(0)">Contact Us</a>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="dream_img">
-                                          <figure><img src="images/about.png" alt="#"/></figure>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- second slide -->
-                           <div class="carousel-item">
-                              <div class="carousel-caption relative">
-                                 <div class="row">
-                                    <div class="col-md-6">
-                                       <div class="dream">
-                                          <h1>
-                                             Hệ thống học tập <br>ITC <br>Education <br>University
-                                          </h1>
-                                          <a class="read_more" href="Javascript:void(0)">Get Stared</a>    
-                                          <a class="read_more" href="Javascript:void(0)">Contact Us</a>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="dream_img">
-                                          <figure><img src="images/dream_img.png" alt="#"/></figure>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- third slide-->
-                           <!-- <div class="carousel-item">
-                              <div class="carousel-caption relative">
-                                 <div class="row">
-                                    <div class="col-md-6">
-                                       <div class="dream">
-                                          <h1>
-                                             Hệ thống học tập <br>ITC <br>Education <br>University
-                                          </h1>
-                                          <a class="read_more" href="Javascript:void(0)">Get Stared</a>    
-                                          <a class="read_more" href="Javascript:void(0)">Contact Us</a>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="dream_img">
-                                          <figure><img src="images/dream_img.png" alt="#"/></figure>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div> -->
-                        </div>
-                        <!-- controls -->
-                        <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
-                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                        <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
-                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                        <span class="sr-only">Next</span>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end banner -->
-      <!-- domain -->
-      <div class="domain">
-         <div class="container">
+<?php include 'head_f/header.php';
+include 'head_f/slide.php';
+$query1 = "SELECT * FROM tin_tuc";
+$tt_run = mysqli_query($connection, $query1);
+
+?>
+<div id="chinese-course">
+  <div class="container">
+    <h4 class="heading text-center">Khóa học Tin Học Văn Phòng</h4>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="course-box">
+          <div class="course-box-up">
+            <a href="tieng-anh-giao-tiep.php" class="img-course-box"><img src="img/course-img/gt.png" alt=""></a>
+            <a href="tieng-anh-giao-tiep.php" class="title-course-box">
+              <p>Tin Học Văn Phòng Cơ Bản</p>
+            </a>
+          </div>
+          <div class="course-box-down">
             <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center">
-                     <h2>Khóa học khả dụng <span class="blue_light">Tháng 4</span></h2>
-                  </div>
-               </div>
+              <div class="col-md-7">
+                <span class="price-course-box">
+                  1.350.000đ
+                  <small>-10%</small>
+                </span>
+                <span class="price-course-box-through">1.500.000đ</span>
+              </div>
+              <div class="col-md-5">
+                <a href="tieng-anh-giao-tiep.php" class="btn-detail-course-box">Chi tiết</a>
+              </div>
             </div>
-            <div class="row">
-               <div class="col-md-10 offset-md-1">
-                  <div class="form">
-                     <div class="searchbar">
-                        <input class="search_input" type="text" name="" placeholder="Tìm kiếm khóa học">
-                        <a href="#" class="search_icon"><i class="fa fa-search" aria-hidden="true"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-10 offset-md-1">
-                  <div class="domain_bg">
-                     <div class="row">
-                        <div class="col-sm-2">
-                           <div class="domain-price">
-                              <strong>Khóa học THCB</strong>
-                           </div>
-                        </div>
-                        <div class="col-sm-10">
-                           <div class="domain-price_main ">
-                              <div class="domain-price">
-                                 <span>Ngày mở khóa học</span>
-                                 <strong>01-05-2023</strong>
-                              </div>
-                              <div class="domain-price">
-                                 <span>Ngày kết thúc khóa học</span>
-                                 <strong>01-08-2023</strong>
-                              </div>
-                              <div class="domain-price">
-                                 <span>Hạn đăng ký khóa học</span>
-                                 <strong>15-04-2023</strong>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="read_more" href="domain.html">Đăng ký khóa học</a>
-                  </div>
-               </div>
-               <div class="col-md-10 offset-md-1">
-                  <div class="domain_bg">
-                     <div class="row">
-                        <div class="col-sm-2">
-                           <div class="domain-price">
-                              <strong>Khóa học THNC</strong>
-                           </div>
-                        </div>
-                        <div class="col-sm-10">
-                           <div class="domain-price_main ">
-                              <div class="domain-price">
-                                 <span>Ngày mở khóa học</span>
-                                 <strong>01-05-2023</strong>
-                              </div>
-                              <div class="domain-price">
-                                 <span>Ngày kết thúc khóa học</span>
-                                 <strong>01-08-2023</strong>
-                              </div>
-                              <div class="domain-price">
-                                 <span>Hạn đăng ký khóa học</span>
-                                 <strong>15-04-2023</strong>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="read_more" href="domain.html">Đăng ký khóa học</a>
-                  </div>
-               </div>
-               <div class="col-md-10 offset-md-1">
-                  <div class="domain_bg">
-                     <div class="row">
-                        <div class="col-sm-2">
-                           <div class="domain-price">
-                              <strong>Khóa học THVPDTNV</strong>
-                           </div>
-                        </div>
-                        <div class="col-sm-10">
-                           <div class="domain-price_main ">
-                              <div class="domain-price">
-                                 <span>Ngày mở khóa học</span>
-                                 <strong>01-05-2023</strong>
-                              </div>
-                              <div class="domain-price">
-                                 <span>Ngày kết thúc khóa học</span>
-                                 <strong>01-08-2023</strong>
-                              </div>
-                              <div class="domain-price">
-                                 <span>Hạn đăng ký khóa học</span>
-                                 <strong>15-04-2023</strong>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="read_more" href="domain.html">Đăng ký khóa học</a>
-                  </div>
-               </div>
-               <div class="col-md-10 offset-md-1">
-                  <div class="domain_bg">
-                     <div class="row">
-                        <div class="col-sm-2">
-                           <div class="domain-price">
-                              <strong>Khóa học THPP</strong>
-                           </div>
-                        </div>
-                        <div class="col-sm-10">
-                           <div class="domain-price_main ">
-                              <div class="domain-price">
-                                 <span>Ngày mở khóa học</span>
-                                 <strong>01-05-2023</strong>
-                              </div>
-                              <div class="domain-price">
-                                 <span>Ngày kết thúc khóa học</span>
-                                 <strong>01-08-2023</strong>
-                              </div>
-                              <div class="domain-price">
-                                 <span>Hạn đăng ký khóa học</span>
-                                 <strong>15-04-2023</strong>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="read_more" href="domain.html">Đăng ký khóa học</a>
-                  </div>
-               </div>
-            </div>
-         </div>
+          </div>
+        </div>
       </div>
-      <!-- end domain -->
-      <!-- guarantee -->
-      <div class="guarantee">
-         <div class="container">
+      <div class="col-md-4">
+        <div class="course-box">
+          <div class="course-box-up">
+            <a href="tieng-anh-tre-em.php" class="img-course-box"><img src="img/course-img/kid.png" alt=""></a>
+            <a href="tieng-anh-tre-em.php" class="title-course-box">
+              <p>Kĩ Năng PowerPoint Nâng Cao</p>
+            </a>
+
+          </div>
+          <div class="course-box-down">
             <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center">
-                     <h2>Khoá học đã đăng ký của<span class="blue_light"> Hoàng Khang</span></h2>
-                  </div>
-               </div>
+              <div class="col-md-7">
+                <span class="price-course-box">
+                  500.000đ
+                  <small>-50%</small>
+                </span>
+                <span class="price-course-box-through">1.000.000đ</span>
+              </div>
+              <div class="col-md-5">
+                <a href="tieng-anh-tre-em.php" class="btn-detail-course-box">Chi tiết</a>
+              </div>
             </div>
-            <div class="row">
-               <div class="col-lg-3 col-md-6">
-                  <div id="ho_co" class="guarantee-box_main">
-                     <div class="guarantee-box text_align_center">
-                        <h3>Khóa học THCB </h3>
-                        <h4>Thời gian bắt đầu:</h4><h4><strong>01-05-2023</strong></h4>
-                        <h4>Thời gian kết thúc:</h4><h4><strong>01-08-2023</strong></h4>
-                        <h4>Giảng viên:</h4><h4><strong>Ngô Băng Nhi</strong></h4>
-                     </div>
-                     <a class="read_more" href="hosting.html">Xem khóa học</a>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-md-6">
-                  <div id="ho_co" class="guarantee-box_main">
-                     <div class="guarantee-box text_align_center">
-                        <h3>Khóa học THCB </h3>
-                        <h4>Thời gian bắt đầu:</h4><h4><strong>01-01-2023</strong></h4>
-                        <h4>Thời gian kết thúc:</h4><h4><strong>01-03-2023</strong></h4>
-                        <h4>Giảng viên:</h4><h4><strong>Nguyễn Hoàng Khang</strong></h4>
-                     </div>
-                     <a class="read_more" href="hosting.html">Xem khóa học</a>
-                  </div>
-               </div>
-            </div>
-         </div>
+          </div>
+        </div>
       </div>
-      <!-- end guarantee -->
-      <!-- order -->
-      <div class="order">
-         <div class="container">
+      <div class="col-md-4">
+        <div class="course-box">
+          <div class="course-box-up">
+            <a href="luyen-thi-toeic.php" class="img-course-box"><img src="img/course-img/toeic.png" alt=""></a>
+            <a href="#" class="title-course-box">
+              <p>Kĩ Năng Tin Học Văn Phong</p>
+            </a>
+          </div>
+          <div class="course-box-down">
             <div class="row">
-               <div class="col-md-8 offset-md-2">
-                  <div class="titlepage text_align_center">
-                     <h2>Kết quả học tập của, <br> <span class="blue_light">Hoàng Khang</span></h2>
-                  </div>
-               </div>
+              <div class="col-md-7">
+                <span class="price-course-box">
+                  2.500.000đ
+                  <small>-10%</small>
+                </span>
+                <span class="price-course-box-through">2.750.000đ</span>
+              </div>
+              <div class="col-md-5">
+                <a href="luyen-thi-toeic.php" class="btn-detail-course-box">Chi tiết</a>
+              </div>
             </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <div id="ho_co" class="order-box_main">
-                     <div class="order-box text_align_center">
-                        <h3>Bảng điểm học tập</h3>
-                        <p>Bạn đã học <span>9</span> Khóa học</p>
-                        <a href="Javascript:void(0)">Xem chi tiết</a>
-                        <ul class="supp">
-                           <li>1</li>
-                           <li>2</li>
-                           <li>3</li>
-                           <li>4</li>
-                           <li>5</li>
-                        </ul>
-                     </div>
-                     <!-- <a class="read_more" href="Javascript:void(0)">Buy Now</a> -->
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div id="ho_co" class="order-box_main">
-                     <div class="order-box text_align_center">
-                        <h3>Lịch học</h3>
-                        <p>Bạn có <span>9</span> lịch học mới trong tuần</p>
-                        <a href="Javascript:void(0)">Xem chi tiết</a>
-                        <ul class="supp">
-                           <li>1</li>
-                           <li>2</li>
-                           <li>3</li>
-                           <li>4</li>
-                           <li>5</li>
-                        </ul>
-                     </div>
-                     <!-- <a class="read_more" href="Javascript:void(0)">Buy Now</a> -->
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div id="ho_co" class="order-box_main">
-                     <div class="order-box text_align_center">
-                        <h3>Thông báo của Giảng viên  </h3>
-                        <p>Bạn có <span>0</span> thông báo mới</p>
-                        <a href="Javascript:void(0)">Xem chi tiết</a>
-                        <ul class="supp">
-                           <li>1</li>
-                           <li>2</li>
-                           <li>3</li>
-                           <li>4</li>
-                           <li>5</li>
-                        </ul>
-                     </div>
-                     <!-- <a class="read_more" href="Javascript:void(0)">Buy Now</a> -->
-                  </div>
-               </div>
-            </div>
-         </div>
+          </div>
+        </div>
       </div>
-      <!-- end order -->
-      <!-- contact -->
-      <div class="contact">
-         <div class="container">
-            <div class="row ">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center">
-                     <h2>Liên hệ với  <span class="blue_light">ITC Admin</span></h2>
-                  </div>
-               </div>
-               <div class="col-md-10 offset-md-1">
-                  <form id="request" class="main_form" action="sendmail.php">
-                     <div class="row">
-                        <div class="col-md-12 ">
-                           <input class="contactus" placeholder="Họ và tên" type="type" name="Name"> 
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Email" type="type" name="Email">                          
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Title" type="type" name="Title">                          
-                        </div>
-                        <div class="col-md-12">
-                           <textarea class="textarea" placeholder="Nội dung ..." type="type" name="Message"></textarea>
-                        </div>
-                        <div class="col-md-12">
-                           <button class="send_btn">Gửi</button>
-                        </div>
-                     </div>
-                  </form>
-               </div>
-            </div>
-         </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid py-4" style="background: #f7f7f7;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1 class="text-danger">ĐĂNG KÝ LỘ TRÌNH HỌC TẬP</h1>
+        <p><i>Hãy để lại thông tin của bạn, Trung Tâm tin học ITC sẽ giúp xây dựng lộ trình học kỹ năng tin học tốt nhất dành riêng cho bạn.</i></p>
+
+        <!-- <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dfpAnFVKcLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                      </div> -->
       </div>
-      <!-- contact -->
-      <!--  footer -->
-      <footer>
-         <div class="footer">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-3 col-md-6 col-sm-6">
-                     <div class="infoma text_align_left">
-                        <h3>ITC</h3>
-                        <ul class="commodo">
-                           <li>Commodo</li>
-                           <li>consequat. Duis a</li>
-                           <li>ute irure dolor</li>
-                           <li>in reprehenderit </li>
-                           <li>in voluptate </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-6">
-                     <div class="infoma">
-                        <h3>Thông tin liên hê</h3>
-                        <ul class="conta">
-                           <li><i class="fa fa-map-marker" aria-hidden="true"></i>Địa chỉ : 12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Tp. Hồ Chí Minh
-                           </li>
-                           <li><i class="fa fa-phone" aria-hidden="true"></i>Hotline : +01 1234567890</li>
-                           <li> <i class="fa fa-envelope" aria-hidden="true"></i><a href="Javascript:void(0)"> Email : itceducation@gmail.com</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 col-sm-6">
-                     <div class="infoma">
-                        <h3>ITC Education</h3>
-                        <ul class="menu_footer">
-                           <li><a href="index.html">Trang chủ</a></li>
-                           <li><a href="about.html">Khóa học </a></li>
-                           <li><a href="domain.html">Báo cáo</a></li>
-                           <li><a href="hosting.html">Kết quả học tập</a></li>
-                           <li><a href="contact.html">Liên hệ</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-lg-2 col-md-6 col-sm-6">
-                     <div class="infoma text_align_left">
-                        <h3>Services.</h3>
-                        <ul class="commodo">
-                           <li>Commodo</li>
-                           <li>consequat. Duis a</li>
-                           <li>ute irure dolor</li>
-                           <li>in reprehenderit </li>
-                           <li>in voluptate </li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="copyright">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <p>© 2023 All Rights Reserved <a href="#">ITC</a></p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <!-- sidebar -->
-      <script src="js/custom.js"></script>
-   </body>
+      <div class="col-md-5">
+        <div class="card shadow-sm rounded">
+          <div class="card-body">
+            <h2>Đăng ký</h2>
+            <form action="dangky.php" method="POST" enctype=multipart/form-data>
+              <div class="form-group">
+                <label for="">Họ tên</label>
+                <input type="text" class="form-control" name="hoten">
+              </div>
+              <div class="form-group">
+                <label for="">Số điện thoại</label>
+                <input type="text" class="form-control" name="sdt">
+
+              </div>
+              <div class="form-group">
+                <label for="">Trình độ học hiện tại </label>
+                <input type="text" class="form-control" name="trinhdohoc">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Chọn khóa học</label>
+                <select class="form-control" id="kh" name="khoahoc">
+                  <option value="0">--Chọn khóa học--</option>
+                  <option value="Tin Học cơ bản">Tin Học cơ bản</option>
+                  <option value="Kỹ năng Powerpoint">Kỹ năng Powerpoint</option>
+                </select>
+
+              </div>
+              <button type="submit" name="them_kh" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .fb-livechat,
+  .fb-widget {
+    display: none
+  }
+
+  .ctrlq.fb-button,
+  .ctrlq.fb-close {
+    position: fixed;
+    right: 24px;
+    cursor: pointer
+  }
+
+  .ctrlq.fb-button {
+    z-index: 999;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyOCAxMjgiIGhlaWdodD0iMTI4cHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB3aWR0aD0iMTI4cHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnPjxyZWN0IGZpbGw9IiMwMDg0RkYiIGhlaWdodD0iMTI4IiB3aWR0aD0iMTI4Ii8+PC9nPjxwYXRoIGQ9Ik02NCwxNy41MzFjLTI1LjQwNSwwLTQ2LDE5LjI1OS00Niw0My4wMTVjMCwxMy41MTUsNi42NjUsMjUuNTc0LDE3LjA4OSwzMy40NnYxNi40NjIgIGwxNS42OTgtOC43MDdjNC4xODYsMS4xNzEsOC42MjEsMS44LDEzLjIxMywxLjhjMjUuNDA1LDAsNDYtMTkuMjU4LDQ2LTQzLjAxNUMxMTAsMzYuNzksODkuNDA1LDE3LjUzMSw2NCwxNy41MzF6IE02OC44NDUsNzUuMjE0ICBMNTYuOTQ3LDYyLjg1NUwzNC4wMzUsNzUuNTI0bDI1LjEyLTI2LjY1N2wxMS44OTgsMTIuMzU5bDIyLjkxLTEyLjY3TDY4Ljg0NSw3NS4yMTR6IiBmaWxsPSIjRkZGRkZGIiBpZD0iQnViYmxlX1NoYXBlIi8+PC9zdmc+) center no-repeat #0084ff;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    bottom: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .06), 0 2px 32px rgba(0, 0, 0, .16);
+    -webkit-transition: box-shadow .2s ease;
+    background-size: 80%;
+    transition: all .2s ease-in-out
+  }
+
+  .ctrlq.fb-button:focus,
+  .ctrlq.fb-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .09), 0 4px 40px rgba(0, 0, 0, .24)
+  }
+
+  .fb-widget {
+    background: #fff;
+    z-index: 1000;
+    position: fixed;
+    width: 360px;
+    height: 435px;
+    overflow: hidden;
+    opacity: 0;
+    bottom: 0;
+    right: 24px;
+    border-radius: 6px;
+    -o-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, .16);
+    -webkit-box-shadow: 0 5px 40px rgba(0, 0, 0, .16);
+    -moz-box-shadow: 0 5px 40px rgba(0, 0, 0, .16);
+    -o-box-shadow: 0 5px 40px rgba(0, 0, 0, .16)
+  }
+
+  .fb-credit {
+    text-align: center;
+    margin-top: 8px
+  }
+
+  .fb-credit a {
+    transition: none;
+    color: #bec2c9;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    border: 0;
+    font-weight: 400
+  }
+
+  .ctrlq.fb-overlay {
+    z-index: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    -webkit-transition: opacity .4s, visibility .4s;
+    transition: opacity .4s, visibility .4s;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .05);
+    display: none
+  }
+
+  .ctrlq.fb-close {
+    z-index: 4;
+    padding: 0 6px;
+    background: #365899;
+    font-weight: 700;
+    font-size: 11px;
+    color: #fff;
+    margin: 8px;
+    border-radius: 3px
+  }
+
+  .ctrlq.fb-close::after {
+    content: "X";
+    font-family: sans-serif
+  }
+
+  .bubble {
+    width: 20px;
+    height: 20px;
+    background: #c00;
+    color: #fff;
+    position: absolute;
+    z-index: 999999999;
+    text-align: center;
+    vertical-align: middle;
+    top: -2px;
+    left: -5px;
+    border-radius: 50%;
+  }
+
+  .bubble-msg {
+    width: 120px;
+    left: -140px;
+    top: 5px;
+    position: relative;
+    background: rgba(59, 89, 152, .8);
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 13px;
+  }
+</style>
+<div class="fb-livechat">
+  <div class="ctrlq fb-overlay"></div>
+  <div class="fb-widget">
+    <div class="ctrlq fb-close"></div>
+    <div class="fb-page" data-href="https://www.facebook.com/100092509407121" data-tabs="messages" data-width="360" data-height="400" data-small-header="true" data-hide-cover="true" data-show-facepile="false"> </div>
+    <div class="fb-credit"> <a href="https://chanhtuoi.com" target="_blank">Powered by ITC</a> </div>
+    <div id="fb-root"></div>
+  </div><a href="https://m.me/n.hoangkhang0107/" title="Gửi tin nhắn cho chúng tôi qua Facebook" class="ctrlq fb-button">
+    <div class="bubble">1</div>
+    <div class="bubble-msg">Bạn cần hỗ trợ?</div>
+  </a>
+</div>
+<script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+  jQuery(document).ready(function($) {
+    function detectmob() {
+      if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+    var t = {
+      delay: 125,
+      overlay: $(".fb-overlay"),
+      widget: $(".fb-widget"),
+      button: $(".fb-button")
+    };
+    setTimeout(function() {
+      $("div.fb-livechat").fadeIn()
+    }, 8 * t.delay);
+    if (!detectmob()) {
+      $(".ctrlq").on("click", function(e) {
+        e.preventDefault(), t.overlay.is(":visible") ? (t.overlay.fadeOut(t.delay), t.widget.stop().animate({
+          bottom: 0,
+          opacity: 0
+        }, 2 * t.delay, function() {
+          $(this).hide("slow"), t.button.show()
+        })) : t.button.fadeOut("medium", function() {
+          t.widget.stop().show().animate({
+            bottom: "30px",
+            opacity: 1
+          }, 2 * t.delay), t.overlay.fadeIn(t.delay)
+        })
+      })
+    }
+  });
+</script>
+<?php
+include 'head_f/footer.php';
+?>
+</body>
+
 </html>

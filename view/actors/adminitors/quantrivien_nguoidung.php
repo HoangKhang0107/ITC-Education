@@ -37,6 +37,7 @@ if (isset($_SESSION['matk'])) {
    <link rel="stylesheet" href="../../../css/style.css">
    <link rel="stylesheet" href="../../../css/table.css">
    <link rel="stylesheet" href="../../../css/btn.css">
+   <link rel="stylesheet" href="../../../css/user.css">
    <!-- Responsive-->
    <link rel="stylesheet" href="../../../css/responsive.css">
    <!-- fevicon -->
@@ -90,7 +91,7 @@ if (isset($_SESSION['matk'])) {
                            <a class="nav-link" href="quantrivien_lophoc.php">Lớp học</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="quantrivien_kythi.php">Kỳ thi</a>
+                           <a class="nav-link" href="quantrivien_lichthi.php">Lịch thi</a>
                         </li>
 
                         <li class="nav-item">
@@ -102,7 +103,16 @@ if (isset($_SESSION['matk'])) {
             </div>
             <div class="col-md-2  d_none">
                <ul class="email text_align_right">
-                  <h3><a href="index_quantrivien.php" class="d-block" style="color: white;"><?php echo $p->laycot("SELECT TenDangNhap FROM taikhoan WHERE MaTK = '$layid_dangnhap' LIMIT 1"); ?></a></h3>
+               <li class="dropdown">
+                     <a href="index_quantrivien.php" class="dropbtn" class="d-block active" style="color: white;"><?php echo $p->laycot("SELECT TenDangNhap FROM taikhoan WHERE MaTK = '$layid_dangnhap' LIMIT 1"); ?></a>
+                     <div class="dropdown-content">
+                        <a href="index_quantrivien.php">Trang quản trị viên</a>
+                        <a href="../student/index_hocvien.php">Trang học viên</a>
+                        <a href="../teachers/index_giangvien.php">Trang giảng viên</a>
+                        <a href="../ministry/index_giaovu.php">Trang Giáo vụ</a>
+                        <a href="../director/index_giamdoctt.php">Trang GDTT</a>
+                        <a href="../../../logout.php">LOGOUT</a>
+                     </div>
                   </li>
                </ul>
             </div>
