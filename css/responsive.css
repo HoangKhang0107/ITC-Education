@@ -1,0 +1,136 @@
+/* Big table to 1200px */
+@media only screen and (max-width:1200px){
+    html{
+        font-size: 16px;
+    }
+    .course-box-down .btn-detail-course-box{
+        font-size: 14px;
+    }
+    .text-rate{
+        font-size: 16px;
+    }
+} 
+
+/* Small table to big table from 768px to 1023px */
+@media only screen and (max-width:1024px){
+   .nav-link{
+       font-size: 12px;
+   }
+   .navbar-brand img{
+    width: 80%;
+    height: 80%;
+   }
+   .navbar{
+       padding: 0px;
+   }
+   .text-contact-bar p:first-child{
+       font-size: 13px;
+   }
+   .about-us-title{
+       font-size: 22px;
+   }
+   .about-us-description{
+       font-size: 12px;
+   } 
+   .course-box .price-course-box{
+       font-size: 15px;
+   }
+   .price-course-box small{
+       font-size: 10px;
+   }
+   .course-box .price-course-box-through{
+       font-size: 11px;
+   }
+   .course-box-down .btn-detail-course-box{
+       font-size: 10px;
+       padding: 2px 2px;
+   }
+   .btn-about-us a{
+       font-size: 11px;
+   }
+   .text-rate{
+       font-size: 14px;
+   }
+   .icon-rate{
+       font-size: 24px;
+   }
+   .location-us-title{
+       font-size: 15px;
+   }
+   #location-us{
+       font-size: 12px;
+   }
+   .social-network-title{
+       font-size: 15px;
+   }
+   #social-network ul li{
+       font-size: 20px;
+   }
+   .guide-title{
+       font-size: 14px;
+   }
+   #guide ul li a{
+       font-size: 12px;
+   }
+   .footer-course-title{
+       font-size: 14px;
+   }
+   #footer-course ul li a{
+       font-size: 12px;
+   }
+   #copyright p{
+       font-size: 12px;
+   }
+   .news-box .news-box-down a{
+       font-size: 14px;
+   }
+   
+
+} 
+
+/* Small phones to small tables */
+@media only screen and (max-width: 767px){
+    .icon-contact-bar{
+        font-size: 150%;
+        margin-bottom: 5px;
+    }
+    .conten-contact{
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .course-box-down .btn-detail-course-box{
+        font-size: 15px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .course-box .price-course-box{
+        font-size: 18px;
+    }
+    .price-course-box small{
+        font-size: 13px;
+    }
+    .course-box .price-course-box-through{
+        font-size: 14px;
+    }
+    .news-box .news-box-down a{
+        font-size: 16px;
+    }
+    .text-rate{
+        margin-left: 0px;
+    }
+    
+} 
+
+/* Small phones from 0 to 480px */
+@media only screen and (max-width:480px){
+    .navbar-brand img{
+        width: 50%;
+        height: 50%;
+    }
+    .custom-toggler .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+    
+} 
+

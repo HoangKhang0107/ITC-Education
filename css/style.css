@@ -1,0 +1,426 @@
+/* DEFAULT SETTING */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato',sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+.clearfix{
+    content: " ";
+    display: table;
+    clear: both;
+}
+/* HEADER Home*/
+.custom-toggler.navbar-toggler {
+    border-color: rgb(163, 161, 161);
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(163, 161, 161)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+.btn{
+    margin-left: 30px;
+}
+.navbar{
+    border-bottom: 1px solid #f2f2f2;
+}
+.navbar-brand img{
+    width: 80%;
+    height: 80%;
+}
+
+.navbar-nav{
+    margin-right: 10px;
+}
+.nav-item{
+    margin-left: 30px;
+}
+.nav-link{
+    text-transform: uppercase;
+    color: black;
+    transition: all .2s;
+}
+.nav-link:hover,.nav-link:active{
+    color: #dc3545;
+    transform: scale(1.1);
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+#home .navbar-brand{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+.dropdown-item:hover,.dropdown-item:active{
+    background-color: #dc3545;
+}
+.navbar-nav .dropdown-item{
+    border-bottom: 1px solid rgb(241, 239, 239);
+}
+.navbar-nav .dropdown-item:last-child{
+    border-bottom: none;
+}
+.dropdown-menu >a:hover {
+    background-color: #dc3545;
+    color: white;
+}
+.navbar-nav .dropdown-menu {
+    padding: 0;   
+}
+/* Slide img */
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-out .7s;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+/* Contact bar */
+#contact-bar{
+    background-color: #dc3545;
+}
+.conten-contact{
+    transform: translateY(10%);
+    padding: 20px 0;
+}
+.icon-contact-bar{
+    font-size: 170%;
+    color: white;
+}
+.text-contact-bar{
+    color: white;
+}
+.text-contact-bar p:first-child{
+    font-size: 15px;
+}
+.text-contact-bar{
+    line-height: 8px;
+}
+/* About us */
+#about-center{
+    background-color: #f6f6f6;
+    margin-top: 50px;
+}
+.about-us-title{
+    color: #666;
+    font-size: 28px;
+    margin-top: 10px;
+}
+.about-us-description{
+    font-size: 15.5px;
+    color: #666;
+    text-align: justify;
+}
+.about-us-img img{
+    width: 122%;
+}
+.btn-about-us a{
+    font-size: 15px;
+}
+.btn-about-us .btn{
+    margin-left: 0px;
+    transform: translateY(-30%);
+}
+/* Chinese Course */
+/* Korean Course */
+.heading{
+    text-transform: uppercase;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+.heading::after{
+    content: "";
+    width: 150px;
+    background-color: #dc3545;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+    height: 2px;
+}
+.course-box .img-course-box{
+    display: block;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+.course-box .img-course-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.course-box-up{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.course-box-down{
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 10px;
+}
+
+.course-box .title-course-box{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+.title-course-box p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.description-course-box p{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.course-box .price-course-box{
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    color: #dc3545;
+    line-height: 20px;
+}
+.course-box .price-course-box-through{
+    font-size: 14px;
+    color: #ccc;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.price-course-box small{
+    font-style: italic;
+    font-weight: bold;
+    padding: 1px 2px;
+    color: white;
+    background-color: #dc3545;
+    border-radius: 3px;
+    font-size: 13px
+}
+.course-box-down .btn-detail-course-box{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background-color: #dc3545;
+    color: white;
+}
+.course-box-down .btn-detail-course-box:hover{
+    background-color: #dd081d;
+}
+/* News Section */
+#news{
+    background: #f2f2f2;
+    padding-bottom: 30px; 
+}
+.container .heading{
+    transform: translateY(30%);
+    margin-bottom: 60px;
+}
+.news-box .news-box-img{
+    display: block;
+    position: relative;
+    padding-bottom: 56.25%;
+    
+}
+.news-box .news-box-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.news-box-up{
+    padding: 10px;
+    box-shadow: 0px 5px 15px 5px #9a9b9c;
+}
+.news-box .news-box-down a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.news-box .news-box-down a:hover,.news-box .news-box-down a:active{
+    color: #dc3545;
+}
+.news-box .news-box-down{
+    margin-top: 5px;
+}
+/* Rate Section */
+#rate .col-md-6 li{
+    list-style: none;
+}
+.icon-rate{
+    font-size: 30px;
+    margin-top: 8px;
+    transition: all .3s;
+}
+.text-rate{
+    margin-left: 10px;
+    text-align: justify;
+    font-size: 18px;
+    
+}
+
+.icon-rate:hover, .icon-rate:active  {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#rate .col-md-6 .title-rate-students{
+    text-transform: uppercase;
+    font-weight: bold;  
+}
+#rate .col-md-6 .title-rate-students::before{
+    content: "l";
+    text-transform: lowercase;
+    font-weight: 900;
+    margin-right: 8px;
+    color: #dc3545;
+}
+/* How client say - slides */
+.testimonial{
+    background: #f1f1f1;
+    padding: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.test-info{
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+.test-pic{
+    width: 50px !important;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.test-name{
+    font-size: 12px;
+    color: #333;
+}
+.test-name span{
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3498db;
+}
+.testimonial p{
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+/* Footer */
+#footer{
+    background-color: #dc3545;
+}
+#location-us{
+    color: white;
+    font-size: 14px; 
+}
+.location-us-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.col-footer{
+    margin-top: 20px;
+}
+#location-us .svg-inline--fa{
+    font-size: 30px;
+    padding: 5px 5px;
+    background-color: white;
+    color: #dc3545;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 10%;
+}
+.social-network-title{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+}
+#social-network ul li{
+    display: inline-block;
+    font-size: 35px;
+    margin-right: 20px;
+    transition: all .3s;
+}
+#social-network ul li a{
+    color: white;
+}
+#social-network ul li:hover,#social-network ul li:active{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#social-network ul{
+    margin-left: 10px;
+}
+.guide-title{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+#guide ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+#guide ul li{
+    list-style: none;
+    transition: all .3s;
+}
+#guide ul li::before{
+    content: "»";
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+}
+#guide ul li:hover,#guide ul li:active{
+    transform: translateX(5%);
+}
+.footer-course-title{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+#footer-course ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+#footer-course ul li{
+    list-style: none;
+    transition: all .3s;
+}
+#footer-course ul li::before{
+    content: "»";
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+}
+#footer-course ul li:hover,#footer-course ul li:active{
+    transform: translateX(5%);
+}
+/* Copyright */
+#copyright{
+    background: #212121;
+}
+#copyright p{
+    color: white;
+    margin-bottom: 0;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+

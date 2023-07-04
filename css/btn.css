@@ -1,0 +1,53 @@
+#btn-basic{
+    border: 2px solid navy;
+    padding: 15px ;
+    border-radius: 20px;
+    color: blue;
+    font-size: 15px;
+    margin-right: 20px;
+}
+#btn-basic:hover{
+    background-color: antiquewhite;
+    color: green;
+}
+
+
+/* ------------------------------------------------------------------------- */
+#btn-basic-form{
+    border: 2px solid navy;
+    padding: 20px ;
+    border-radius: 20px;
+    color: blue;
+    font-size: 15px;
+    margin-right: 20px;
+}
+#btn-basic-form:hover{
+    background-color: antiquewhite;
+    color: green;
+}
+/* ------------------------------------------------------------------- */
+#btn-basic-sm-delete{
+    border: 2px solid navy;
+    padding: 5px ;
+    border-radius: 5px;
+    color: blue;
+    font-size: 15px;
+    margin-right: 5px;
+}
+#btn-basic-sm-delete:hover{
+    background-color: red;
+    color: navy;
+}
+/* -------------------------------------------------------------------------- */
+#btn-basic-sm-edit{
+    border: 2px solid navy;
+    padding: 5px ;
+    border-radius: 5px;
+    color: blue;
+    font-size: 15px;
+    margin-right: 5px;
+}
+#btn-basic-sm-edit:hover{
+    background-color: green;
+    color: white;
+}
